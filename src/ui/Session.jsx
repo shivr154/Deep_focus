@@ -12,8 +12,15 @@ const SessionBlocker = () => {
 
   useEffect(() => {
     const fetchProcesses = async () => {
-      const processes = await window.electronAPI.getRunningProcesses();
-      setAvailableApps(processes);
+      try{
+        // console.log("Before the fetched proceess:");
+        const processes = await window.electronAPI.getRunningProcesses();
+        // console.log("Fetched processes:", processes);
+        setAvailableApps(processes);
+      }
+      catch (error){
+        console.error("Error fetching running processes:", error);
+      }
     };
     fetchProcesses();
 

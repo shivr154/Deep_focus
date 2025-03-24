@@ -1,6 +1,7 @@
 {
     "appId": "com.shivam.deep_focus",
     "files": ["src/electron", "dist-react"], 
+    "asar": false,
     "icon": "./desktopIcon.png",
     "mac": {
       "target": "dmg"
@@ -10,6 +11,7 @@
       "category": "Utility"
     },
     "win": {
-      "target": ["portable", "msi"]
+      "target": ["portable", "msi"],
+      "requestedExecutionLevel": "requireAdministrator"
     }
   }
