@@ -4,6 +4,10 @@
 
 #### Deep Work App is a productivity tool that helps users stay focused by blocking distracting websites and applications for a set period. Built using Electron, React, and Node.js, this app ensures a distraction-free environment for deep work sessions.
 
+
+# Demo
+
+https://github.com/user-attachments/assets/65eec890-4e3b-423e-9243-92e8cb98ac64
   
 
 # Features
