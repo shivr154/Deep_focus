@@ -17,35 +17,35 @@ https://github.com/user-attachments/assets/65eec890-4e3b-423e-9243-92e8cb98ac64
 
   
 
-##### Website Blocking: Modifies the system's hosts file to prevent access to selected websites.
+- Website Blocking: Modifies the system's hosts file to prevent access to selected websites.
 
   
 
-#### Application Blocking: Monitors and terminates selected applications during a session.
+- Application Blocking: Monitors and terminates selected applications during a session.
 
   
 
-#### Timer-Based Sessions: Users can set a duration, after which all blocked websites and applications are unblocked.
+- Timer-Based Sessions: Users can set a duration, after which all blocked websites and applications are unblocked.
 
   
 
-#### Persistent Blocking: Ensures that blocked apps are terminated if restarted during an active session.
+- Persistent Blocking: Ensures that blocked apps are terminated if restarted during an active session.
 
   
 
- #### IPC Communication: Uses Electron's IPC to manage blocking actions efficiently.
+ - IPC Communication: Uses Electron's IPC to manage blocking actions efficiently.
 
  
 
- #### Users can select specific websites and applications to block from the settings menu.
+ - Users can select specific websites and applications to block from the settings menu.
 
   
 
-#### Blocking can be scheduled for predefined time intervals.
+ - Blocking can be scheduled for predefined time intervals.
 
   
 
-#### The app requires administrator privileges to modify system files for website blocking.
+ - The app requires administrator privileges to modify system files for website blocking.
 
   
 
