@@ -35,9 +35,21 @@ https://github.com/user-attachments/assets/65eec890-4e3b-423e-9243-92e8cb98ac64
 
  #### IPC Communication: Uses Electron's IPC to manage blocking actions efficiently.
 
+ 
+
+ #### Users can select specific websites and applications to block from the settings menu.
+
   
 
-### Prerequisites
+#### Blocking can be scheduled for predefined time intervals.
+
+  
+
+#### The app requires administrator privileges to modify system files for website blocking.
+
+  
+
+## Prerequisites
 
   
 
@@ -47,18 +59,3 @@ Node.js (Latest LTS version recommended)
 
 Git
 
-
-
-## Features 
-
-  
-
-#### Users can select specific websites and applications to block from the settings menu.
-
-  
-
-#### Blocking can be scheduled for predefined time intervals.
-
-  
-
-#### The app requires administrator privileges to modify system files for website blocking.
